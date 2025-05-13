@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sjajna Ponuda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/css/styles.css"
+    />
+    <link rel="icon" href="/assets/images/theme/favicon_io/favicon.ico" />
+    <style>
+      
+      
+    </style>
+  </head>
+
+  <body class="parallax-bg">
+    <!-- <nav
+      class="navbar navbar-dark"
+      style="
+    border-radius: 0 0 40px 40px;
+    background: url('/assets/images/theme/default-produce.webp') center/cover no-repeat;
+    "
+    >
+      <div class="container-fluid">
+        <div>
+          <ul class="navbar-nav d-flex flex-row gap-4 nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/lite-page-green-template/#/">Glavna</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/lite-page-green-template/pricing.markdown"
+                >Cene</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/lite-page-green-template/blog.html"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">O nama</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+    <header
+      id="welcome"
+      class="container text-center py-5 position-relative px-md-2"
+      style="background: url('/assets/images/theme/default-produce.webp') center/cover no-repeat;"
+    >
+      <div class="header-overlay p-4">
+        <h1 class="mb-3">Dobrodošli u našu prodavnicu</h1>
+        <p class="lead" style="position: relative; z-index: 1">
+          Sveže domaće voće i povrće direktno sa farme do vašeg stola!
+        </p>
+      </div>
+    </header>
+    <nav
+      style="border-radius: 0 0 40px 40px"
+      class="navbar navbar-dark fixed-top navbar navbar-expand-md"
+      id="mainNavbar"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler mx-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-3" id="navbarNav">
+          <ul class="navbar-nav mt-3 mt-md-0">
+            <li class="nav-item">
+              <button id="darkModeToggle" class="btn btn-secondary">🌙</button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#welcome">Naslovna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#products">Naši Proizvodi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#contact">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn btn-outline-light ms-2 phone-button"
+                href="tel:"
+                >📞 <strong>Telefon:</strong> </a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <style>
+  .hidden-section {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+
+  .show-section {
+    opacity: 0.9;
+    transform: translateX(0);
+  }
+</style>
+
+<style>
+  .single-post {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f4ffc3;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+
+  .single-post .post-title {
+    font-size: 2.5rem;
+    color: #5d8736;
+    margin-bottom: 0.5rem;
+  }
+
+  .single-post .post-meta {
+    color: #809d3c;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  .single-post .post-content {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #2e3b21;
+  }
+
+  .single-post .post-content h2,
+  .single-post .post-content h3 {
+    color: #5d8736;
+    margin-top: 1.5rem;
+  }
+
+  .single-post .post-content a {
+    color: #809d3c;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+
+  .single-post .post-content a:hover {
+    color: #a9c46c;
+  }
+</style>
+
+<article class="single-post my-5">
+  <section class="container my-5 hidden-section post-content">
+    <h1 class="post-title text-decoration-none">Sjajna Ponuda</h1>
+    <p class="post-meta">
+      04.04.2025,
+      <a
+        href="/blog/author/vladan/"
+        class="text-decoration-underline"
+      >
+        Vladan
+      </a>
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien ut risus aliquam condimentum sit amet in dolor. Cras eu ornare enim, non aliquet elit. Cras dictum lorem neque, eu aliquam metus dapibus eu. Integer ac tristique massa, non imperdiet libero. Mauris nec euismod ante. Donec et urna dignissim, efficitur magna a, bibendum velit. Mauris urna magna, tincidunt ut convallis ut, imperdiet vitae arcu. Nunc massa augue, blandit finibus sem a, dictum venenatis turpis. Fusce bibendum vel erat at egestas. Mauris ac venenatis urna. Nullam varius, purus ac convallis fringilla, diam est sollicitudin nunc, quis consequat orci neque et turpis.</p>
+
+<p>Cras id lectus nisl. Nam porttitor nibh non nibh blandit malesuada. Fusce vel nisl id lacus tristique congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio sapien, porta at risus ut, porttitor sodales diam. Nunc iaculis, mi vitae fermentum auctor, eros urna mollis eros, id lobortis lacus purus venenatis orci. Suspendisse cursus diam ligula. Donec aliquam ante at velit tristique, quis finibus nisi eleifend.</p>
+
+<p>Phasellus vitae volutpat enim. Vestibulum interdum diam scelerisque accumsan gravida. Etiam aliquet lectus vitae ipsum malesuada gravida. In arcu est, venenatis in mi faucibus, mollis lacinia sapien. Nunc consequat, felis eget elementum posuere, lectus nibh efficitur massa, eget viverra magna neque eu tortor. Cras non ante sed ante molestie tincidunt. In vel diam eu velit viverra ullamcorper. Maecenas in leo at libero rutrum bibendum. Nullam ultrices vel lorem at mollis. Maecenas non feugiat enim, eu accumsan ante. Maecenas nec magna at nunc gravida tempus. Nam auctor erat id ipsum sodales pulvinar. Fusce ac iaculis odio, nec tincidunt mi. Nam ipsum turpis, tincidunt eget libero ut, tempor mattis metus. Morbi semper, neque facilisis rhoncus pulvinar, sem ante blandit nisi, vitae volutpat metus lacus sit amet lectus.</p>
+
+<p>Sed auctor leo ut viverra congue. Aliquam lacinia elit metus, varius vestibulum massa auctor nec. Sed vulputate arcu vitae purus ultricies, eu sollicitudin arcu pharetra. Curabitur non faucibus magna. Etiam non ante id augue luctus accumsan. Aenean vulputate mollis est, sit amet pharetra ligula vestibulum sed. Mauris nec purus laoreet, euismod arcu a, facilisis est. Mauris eu quam bibendum turpis aliquet auctor eget sit amet risus. Phasellus euismod sed augue eget pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consequat elit eget leo pulvinar hendrerit. Pellentesque ut sollicitudin odio. Fusce et ex vitae lectus sodales feugiat consectetur at odio. Nunc vitae lacus vitae turpis maximus volutpat ac non quam.</p>
+
+  </section>
+</article>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const sections = document.querySelectorAll(".hidden-section");
+    function handleScroll() {
+      sections.forEach((section) => {
+        const sectionPosition = section.getBoundingClientRect().top;
+        const screenHeight = window.innerHeight;
+        if (sectionPosition < screenHeight * 0.75) {
+          section.classList.add("show-section");
+        }
+      });
+    }
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+  });
+</script>
+
+    <a href="#" class="position-fixed bottom-0 end-0 m-3" id="backToTop">▲</a>
+
+    <script src="/assets/js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <script>
+      let lastScrollTop = 0;
+      const navbar = document.getElementById("mainNavbar");
+
+      window.addEventListener("scroll", function () {
+        const currentScroll =
+          window.pageYOffset || document.documentElement.scrollTop;
+
+        if (currentScroll > lastScrollTop) {
+          navbar.classList.add("hide-navbar");
+        } else {
+          navbar.classList.remove("hide-navbar");
+        }
+
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+      });
+    </script>
+    <script>
+      const backToTopBtn = document.getElementById("backToTop");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 100) {
+          backToTopBtn.classList.add("show");
+        } else {
+          backToTopBtn.classList.remove("show");
+        }
+      });
+    </script>
+  </body>
+</html>
